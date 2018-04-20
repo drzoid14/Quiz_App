@@ -24,7 +24,7 @@ $(function(){
 		  console.log(`${STORE[number].quest}`);
 			return `<div class = "question"> 
 					<h1>Question</h1>
-					<h3 role="question">${STORE[number].quest}</h3>
+					<h3 role="Document">${STORE[number].quest}</h3>
 					  <div class = "answers">
 						  <form role = "Answer Options" onsubmit="getFeedback()">
 						    <fieldset>
